@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(236, 236, 247);
+}
+
+.avatar-img {
+  width: 240px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+
+.container h1 {
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.all {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 25px 8px;
+}
+
+.info-text {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .info-text {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-bio {
+  margin-left: 25px;
+}
+
+.info-bio p {
+  margin-top: -14px;
+}
+
+.info-2 td {
+  /* width: 150px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.info-2 table {
+  margin: auto;
+}
+
+.info-3 table {
+  width: 100%;
+  text-align: center;
+}
+
+.info-3 th {
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.contacts {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  background: #6c6c6c;
+  padding: 6px 14px;
+  margin: 0px 6px;
+  border-radius: 4px;
+  color: azure;
+}
+
+a:hover {
+  background-color: darkslategrey;
+  color: greenyellow;
+}
+
+a:active {
+  background-color: antiquewhite;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  a {
+    padding: 4px 9px;
+    margin: 0px 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  a {
+    padding: 4px 6px;
+    margin: 0px 0px;
+  }
+}
